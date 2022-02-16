@@ -12,5 +12,10 @@
   },
   "devDependencies": {
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "csso": "^5.0.2",
+    "html-minifier-terser": "^7.0.0-alpha.1",
+    "uglify-js": "^3.15.1"
   }
 }
