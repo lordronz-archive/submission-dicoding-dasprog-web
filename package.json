@@ -1,0 +1,16 @@
+{
+  "name": "submission-final-dasprog-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint website",
+    "lint:fix": "eslint website --fix && yarn format",
+    "lint:strict": "eslint --max-warnings=0 src",
+    "format": "prettier -w .",
+    "format:check": "prettier -c ."
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
