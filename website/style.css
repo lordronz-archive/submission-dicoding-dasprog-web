@@ -227,10 +227,24 @@ nav ul li span {
   background-color: rgb(var(--tw-clr-primary-300) / 0);
 }
 
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 3;
+}
+
+.bio-side {
+  flex: 1;
+  position: sticky;
+  top: 6rem/* 144px */;
+  max-height: calc(100vh - 6rem - 113px);
+  border: 1px solid white;
 }
 
 .header-main {
@@ -278,4 +292,10 @@ nav ul li span {
     font-size: 1.875rem /* 30px */;
     line-height: 2.25rem /* 36px */;
   }
+}
+
+.content-text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
 }
