@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "node build.js",
     "lint": "eslint website",
     "lint:fix": "eslint website --fix && yarn format",
     "lint:strict": "eslint --max-warnings=0 src",
@@ -12,5 +13,10 @@
   },
   "devDependencies": {
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "csso": "^5.0.2",
+    "html-minifier-terser": "^7.0.0-alpha.1",
+    "uglify-js": "^3.15.1"
   }
 }
