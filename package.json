@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "node build.js",
     "lint": "eslint website",
     "lint:fix": "eslint website --fix && yarn format",
     "lint:strict": "eslint --max-warnings=0 src",
