@@ -275,7 +275,9 @@ nav ul li span {
   max-width: 80%;
 }
 
-.bio-fig {
+.bio-email {
+  cursor: pointer;
+  color: var(--clr-primary-200);
 }
 
 .header-main {
@@ -398,4 +400,39 @@ nav ul li span {
 
 .sub-social-links svg:hover {
   color: var(--clr-primary-200);
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.characters-container > * {
+  margin-top: 1.5rem;
+}
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  border: 1px solid var(--clr-primary-500);
+  border-radius: 0.5rem;
+}
+
+.character-card > * ~ * {
+  margin-top: 1rem;
+}
+
+.character-picture {
+  max-width: 80%;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.character-picture figcaption {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
