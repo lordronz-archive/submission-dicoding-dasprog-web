@@ -35,6 +35,18 @@ body {
   color: var(--clr-semiwhite);
 }
 
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+}
+
+figure > figcaption {
+  font-size: 0.7rem;
+  color: var(--clr-primary-50);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -241,10 +253,23 @@ nav ul li span {
 
 .bio-side {
   flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   position: sticky;
-  top: 6rem/* 144px */;
-  max-height: calc(100vh - 6rem - 113px);
+  top: 6rem;
+  max-height: calc(100vh - 6rem - 50px);
   border: 1px solid white;
+}
+
+.bio-img {
+  max-width: 80%;
+}
+
+.bio-fig {
+
 }
 
 .header-main {
