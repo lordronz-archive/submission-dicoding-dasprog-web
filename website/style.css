@@ -333,6 +333,18 @@ nav ul li span {
   color: #d1d5db;
 }
 
+.content-img {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.content-link {
+  color: var(--clr-primary-100);
+}
+
 .root-footer {
   padding-bottom: 0.5rem;
   margin-top: 1rem;
