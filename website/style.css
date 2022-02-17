@@ -332,3 +332,58 @@ nav ul li span {
   font-weight: 500;
   color: #d1d5db;
 }
+
+.root-footer {
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.subfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  border-top-width: 1px;
+  border-color: rgb(75 85 99);
+}
+
+.subfooter p {
+  margin-top: 2rem;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  color: rgb(209 213 219);
+}
+
+.social-links {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.social-links > :not([hidden]) ~ :not([hidden]) {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.sub-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-social-links svg {
+  color: var(--clr-primary-200);
+  font-size: 3rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 1.5rem;
+  color: rgb(209 213 219);
+  vertical-align: middle;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.sub-social-links svg:hover {
+  color: var(--clr-primary-200);
+}

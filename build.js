@@ -19,18 +19,11 @@ const buildDir = './build';
 
 const minifyOptions = {
   collapseBooleanAttributes: true,
-  collapseInlineTagWhitespace: true,
   collapseWhitespace: true,
   minifyCSS: true,
   minifyJS: true,
   minifyURLs: true,
-  removeAttributeQuotes: true,
   removeComments: true,
-  removeEmptyAttributes: true,
-  removeEmptyElements: true,
-  removeOptionalTags: true,
-  removeRedundantAttributes: true,
-  removeScriptTypeAttributes: true,
   removeStyleLinkTypeAttributes: true,
   useShortDoctype: true,
 };
