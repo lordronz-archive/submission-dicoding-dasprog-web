@@ -2,6 +2,7 @@ const { minify } = require('html-minifier-terser');
 const { minify: minifyCss } = require('csso');
 const fs = require('fs');
 const fse = require('fs-extra');
+const { minify: minifyJs } = require("uglify-js");
 
 const srcDir = 'website';
 const destDir = 'build';
@@ -36,9 +37,15 @@ try {
   minify(html, minifyOptions).then((minifiedHtml) => {
     fs.writeFileSync(buildDir + '/index.html', minifiedHtml);
   });
+
   const css = fs.readFileSync('./website/style.css', 'utf8');
   const minifiedCss = minifyCss(css).css;
   fs.writeFileSync(buildDir + '/style.css', minifiedCss);
+
+  const js = fs.readFileSync('./website/script.js', 'utf8');
+  const minifiedJs = minifyJs(js).code
+  fs.writeFileSync(buildDir + '/script.js', minifiedJs);
+
   console.log('Done!!');
 } catch (err) {
   console.error(err);
