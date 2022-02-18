@@ -68,6 +68,24 @@ function copyEmail() {
       link: 'https://anilist.co/character/89/',
       like: 0,
     },
+    rei: {
+      name: 'Rei Ayanami',
+      img: 'assets/characters/rei.jpg',
+      link: 'https://anilist.co/character/86/',
+      like: 0,
+    },
+    misato: {
+      name: 'Misato Katsuragi',
+      img: 'assets/characters/misato.jpg',
+      link: 'https://anilist.co/character/1259/',
+      like: 0,
+    },
+    kaji: {
+      name: 'Ryouji Kaji',
+      img: 'assets/characters/kaji.jpg',
+      link: 'https://anilist.co/character/1260/',
+      like: 0,
+    },
   };
 
   localStorage.setItem('characters', JSON.stringify(charsObj));
