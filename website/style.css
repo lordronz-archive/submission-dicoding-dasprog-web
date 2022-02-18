@@ -343,6 +343,10 @@ nav ul li span {
   overflow: hidden;
 }
 
+.content-img img {
+  width: 100%;
+}
+
 .content-link {
   color: var(--clr-primary-100);
 }
@@ -415,6 +419,7 @@ nav ul li span {
 .character-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
   align-items: center;
   border: 1px solid var(--clr-primary-500);
