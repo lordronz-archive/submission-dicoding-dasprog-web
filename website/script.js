@@ -48,6 +48,7 @@ function copyEmail() {
 </div> */
 }
 
+// IIFE untuk merender karakter-karakter evangelion, dan menyimpan like di localStorage
 (function () {
   const charsObj = JSON.parse(localStorage.getItem('characters')) || {
     kaworu: {
