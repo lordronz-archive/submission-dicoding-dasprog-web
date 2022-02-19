@@ -1,4 +1,5 @@
 import { minify } from 'html-minifier-terser';
+import type { Options } from 'html-minifier-terser';
 import { minify as minifyCss } from 'csso';
 import fs from 'fs';
 import fse from 'fs-extra';
@@ -12,7 +13,7 @@ fse.copySync(srcDir, destDir, { overwrite: true });
 
 const buildDir = './build';
 
-const minifyOptions = {
+const minifyOptions: Options = {
   collapseBooleanAttributes: true,
   collapseWhitespace: true,
   minifyCSS: true,
