@@ -1,20 +1,14 @@
-const { minify } = require('html-minifier-terser');
-const { minify: minifyCss } = require('csso');
-const fs = require('fs');
-const fse = require('fs-extra');
-const { minify: minifyJs } = require('uglify-js');
+import { minify } from 'html-minifier-terser';
+import { minify as minifyCss } from 'csso';
+import fs from 'fs';
+import fse from 'fs-extra';
+import { minify as minifyJs } from 'uglify-js';
 
 const srcDir = 'website';
 const destDir = 'build';
 
 // To copy a folder or file
-fse.copySync(srcDir, destDir, { overwrite: true }, function (err) {
-  if (err) {
-    console.error(err);
-  } else {
-    console.log('success!');
-  }
-});
+fse.copySync(srcDir, destDir, { overwrite: true });
 
 const buildDir = './build';
 
