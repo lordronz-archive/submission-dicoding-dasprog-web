@@ -17,7 +17,7 @@
     "@types/fs-extra": "^9.0.13",
     "@types/html-minifier-terser": "^6.1.0",
     "@types/uglify-js": "^3.13.1",
-    "prettier": "^2.6.0",
+    "prettier": "^2.6.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
   },
