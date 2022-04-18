@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "csso": "^5.0.3",
-    "fs-extra": "^10.0.1",
+    "fs-extra": "^10.1.0",
     "html-minifier-terser": "^7.0.0-alpha.2",
     "uglify-js": "^3.15.4"
   }
