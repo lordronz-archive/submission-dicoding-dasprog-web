@@ -76,10 +76,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.18.tgz#3b4fed5cfb58010e3a2be4b6e74615e4847f1074"
   integrity sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==
 
-"@types/uglify-js@^3.13.2":
-  version "3.13.2"
-  resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.13.2.tgz#1044c1713fb81cb1ceef29ad8a9ee1ce08d690ef"
-  integrity sha512-/xFrPIo+4zOeNGtVMbf9rUm0N+i4pDf1ynExomqtokIJmVzR3962lJ1UE+MmexMkA0cmN9oTzg5Xcbwge0Ij2Q==
+"@types/uglify-js@^3.13.3":
+  version "3.13.3"
+  resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.13.3.tgz#556fd2ac75cc649aba21f87e0be7b1a7e9915bfe"
+  integrity sha512-9dmBYXt/rKxedUXfCvXSxyiPvpDXLkiRlv17DnqdhS+pRustL1967rI1jZVt1xysTO+xJGMoZzcy3cWC9+b6Tw==
   dependencies:
     source-map "^0.6.1"
 
