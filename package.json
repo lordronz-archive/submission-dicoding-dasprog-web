@@ -19,7 +19,7 @@
     "@types/uglify-js": "^3.16.0",
     "prettier": "^2.7.1",
     "ts-node": "^10.8.2",
-    "typescript": "^4.7.4"
+    "typescript": "^5.0.2"
   },
   "dependencies": {
     "csso": "^5.0.4",
